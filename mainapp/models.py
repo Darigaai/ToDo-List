@@ -1,5 +1,7 @@
 from django.db import models
 
+
+# нужна моделька для авторов
 # Create your models here.
 class ToDo(models.Model):
     title = models.CharField(max_length=100)

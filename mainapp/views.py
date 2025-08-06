@@ -9,3 +9,6 @@ def todo_list(request):
     todos = ToDo.objects.all()
     context = {'todos':todos}
     return render(request, 'todo_list.html', context=context)
+
+
+
